@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorear con el Mouse</title>
+    <style>
+
+        #canvas-container {
+            position: relative;
+            width: 481px; /* Ancho del lienzo */
+            
+            height: 685px;
+            border: 10px solid black; /* Grosor y color del marco */
+            background-image: url('/icons/marco2.png'); /* Imagen de marco */
+            background-size: cover;
+            background-position: center;
+        }
+        #canvas {
+            position: absolute;
+            top: 9rem; /* Ajuste para dejar espacio dentro del marco */
+            left: 3rem; /* Ajuste para dejar espacio dentro del marco */
+            width: 380px; /* Ancho del área de dibujo dentro del marco */
+            height: 380px; /* Alto del área de dibujo dentro del marco */
+            border: 1px solid #000;
+        }
+
+        .color-button {
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .pencil-button {
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+            background-image: url('https://images.emojiterra.com/mozilla/512px/270f.png');
+            background-size: cover;
+        }
+        .eraser-button {
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+            background-image: url('https://cdn-icons-png.flaticon.com/512/1828/1828035.png');
+            background-size: cover;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="canvas-container">
+        <canvas id="canvas" width="400" height="400"></canvas>
+    </div>
+    <div>
+        <button class="color-button" style="background-color: red;" onclick="setColor('red')"></button>
+        <button class="color-button" style="background-color: green;" onclick="setColor('green')"></button>
+        <button class="color-button" style="background-color: yellow;" onclick="setColor('yellow')"></button>
+        <button class="pencil-button" onclick="setColor('white')"></button>
+        
+        <button class="eraser-button" onclick="resetColor()"></button>
+        <button onclick="clearCanvas()">Limpiar Dibujo</button>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>

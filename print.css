@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+
+#c1, #c1 .box, #bcolo #bcolo_mid {
+    width: 100%;
+}
+
+#bcolo_c1 {
+    display: block;
+    width: 100%;
+}
+
+#menu, #breadcrumb, #btitre, #c2, #foot, #bcolo_top, #bcolo_foot, #bcolo_c2, #flash_over, .titre_classic, .bbox, .double_box, .btitre {
+    display: none;
+}
