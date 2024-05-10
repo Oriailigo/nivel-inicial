@@ -15818,7 +15818,15 @@ li.contenuVideo u {
     /* object-fit: cover;
     z-index: 9999; */
   }
-  
+  @media (max-width: 950px) {
+    #loading-video {
+      max-width: 100%; /* Ancho del video al 100% del contenedor */
+      height: 100vh; /* Altura ajustada automáticamente */
+      object-fit: cover;
+      
+     
+    }
+  }
   /* Estilo para el contenido principal */
   #mostrarContenido {
     display: none; /* Inicialmente oculto */
