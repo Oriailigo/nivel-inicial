@@ -15808,5 +15808,20 @@ li.contenuVideo u {
     font-size: 24px;
     margin-bottom: 20px;
   }
-
- 
+/* Estilo para el video de carga */
+#loading-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 9999;
+  }
+  
+  /* Estilo para el contenido principal */
+  #mostrarContenido {
+    display: none; /* Inicialmente oculto */
+  }
+  
+  

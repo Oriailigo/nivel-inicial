@@ -267,6 +267,16 @@
     </script>
   </head>
   <body class="es pagerubrique" data-bg="#79BA01">
+
+     <!-- Video de carga -->
+  <video id="loading-video" autoplay muted loop preload="auto">
+    <source src="intro.mp4" type="video/mp4">
+    Tu navegador no soporta la etiqueta de video.
+  </video>
+
+    <div id="mostrarContenido" style="display: none;">
+
+
     <div
       id="overDiv"
       style="position: absolute; visibility: hidden; z-index: 1000"
@@ -835,10 +845,12 @@
         >Fichier généré le 16/04/2024 à 17:28:35</em
       ></span
     >
+  </div>
     <script
       data-cfasync="false"
       src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
     ></script>
     <script src="/_includes/js.php/footerJS.js.php"></script>
+    <script src="script.js"></script>
   </body>
 </html>
