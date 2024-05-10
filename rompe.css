@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.original-container {
+    text-align: center;
+}
+
+.original-image {
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.original-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.2s;
+}
+
+.piece {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    cursor: pointer;
+}

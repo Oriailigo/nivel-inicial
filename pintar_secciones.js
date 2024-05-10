@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
     image.crossOrigin = "anonymous";
     image.src = "https://storage.googleapis.com/artlab-public.appspot.com/share/AVUZ5ER7K77O.png";
 
+   // https://media.istockphoto.com/vectors/black-and-white-child-helping-old-woman-cross-the-street-vector-id1197449058?k=20&m=1197449058&s=170667a&w=0&h=nMgnJlsLHCIYhzgW8x1mHxUmlhMKVplT8J7EDOgb60Q=
+// https://www.bing.com/images/search?view=detailV2&ccid=uTc5A2NO&id=107B5F0C5647589A3522E6A78FC59E39E5C12D7B&thid=OIP.uTc5A2NOqBIbcnZnQCS6awHaHa&mediaurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fpolice-helping-old-woman-coloring-page-kids_576561-5317.jpg%3Fw%3D1060&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.b9373903634ea8121b7276674024ba6b%3Frik%3Dey3B5TmexY%252bn5g%26pid%3DImgRaw%26r%3D0&exph=1060&expw=1060&q=crear+una+imagen+en+blanco+y+negro+de+un+ni%c3%b1o+con+su+madre+cruzando+la+calle.+debe+representar+la+seguridad+vial.+tipo+caricatura.&simid=607995425144461976&form=IRPRST&ck=EF8940DE9C4A178D0A4A806D356BED1F&selectedindex=3&itb=0&ajaxhist=0&ajaxserp=0&pivotparams=insightsToken%3Dccid_KR2aWX6o*cp_C8DCF97E535D062A620C48BA7513481C*mid_658C7D726F22747EAEA1DE4BE943C479A9410ED1*simid_608018712402004627*thid_OIP.KR2aWX6o0703OslXyYNJHgAAAA&vt=0&sim=11&iss=VSI&ajaxhist=0&ajaxserp=0
     // Función para pintar un área en blanco con el color actual
     function fillArea(startX, startY) {
         const stack = [[startX, startY]];
