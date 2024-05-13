@@ -15808,6 +15808,15 @@ li.contenuVideo u {
     font-size: 24px;
     margin-bottom: 20px;
   }
+  /* Estilo para el audio de carga */
+
+  audio{
+    visibility: hidden;
+    height: 0px;
+  }
+
+  
+  
 /* Estilo para el video de carga */
 #loading-video {
     /* position: fixed;
@@ -15815,6 +15824,7 @@ li.contenuVideo u {
     left: 0; */
     width: 100%;
     height: auto;
+    margin-top: -2rem;
     /* object-fit: cover;
     z-index: 9999; */
   }
@@ -15823,7 +15833,7 @@ li.contenuVideo u {
       max-width: 100%; /* Ancho del video al 100% del contenedor */
       height: 100vh; /* Altura ajustada automáticamente */
       object-fit: cover;
-      
+
      
     }
   }

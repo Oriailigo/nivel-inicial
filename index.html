@@ -267,7 +267,10 @@
     </script>
   </head>
   <body class="es pagerubrique" data-bg="#79BA01">
-
+    <audio id="myAudio" controls autoplay>
+      <source src="intro.mp3" type="audio/mpeg" autoplay>
+    Your browser does not support the audio element.
+    </audio>
      <!-- Video de carga -->
   <video id="loading-video" autoplay muted loop preload="auto">
     <source src="introcelu.mp4" type="video/mp4">
@@ -852,5 +855,14 @@
     ></script>
     <script src="/_includes/js.php/footerJS.js.php"></script>
     <script src="script.js"></script>
+    <script>
+      // Obtener el elemento de audio
+      var audio = document.getElementById("myAudio");
+  
+      // Detener la reproducción después de 5 segundos
+      setTimeout(function(){
+          audio.pause();
+      }, 11000);
+  </script>
   </body>
 </html>
