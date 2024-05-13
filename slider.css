@@ -87,7 +87,6 @@ body{
 
   .frame {
 
-    margin-left: 4rem;
     text-align: center;
   }
   button {
@@ -112,3 +111,10 @@ body{
     outline: none;
   }
   
+
+  .centrar-content{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+  }
