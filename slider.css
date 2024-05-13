@@ -117,6 +117,7 @@ body{
         flex-direction: column;
         gap: 2rem;
         justify-content: center;
+        align-items: center;
   }
 
   p{
@@ -131,38 +132,23 @@ body{
  {
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 2rem;
-    padding: 12px;
+    padding: 2rem;
     background: rgb(234, 172, 110);
     color: white;
-    padding: 4rem;
+    padding: 2rem;
     position: relative;
     /* width: 200px; */
-    margin: 0 auto;
     font-family: sans-serif;
     z-index: 1;
     
  } 
 
-/*  
- background-color: #fff;
-    
- padding: 4rem;
-
- border: 1px solid rgba(255, 255, 255, .25);
-border-radius: 20px;
-border-bottom: 40px solid gray;
-border-right: 40px solid transparent;
-
-background-color: rgba(255, 255, 255, 0.45);
-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25); */
-
  .backgounde-p::after {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 80px;
+    left: 15rem;
     background: transparent;
-    width: 0px; height: 0px;
     border-bottom: 40px solid rgb(234, 172, 110);
     border-right: 40px solid transparent;
     border-left: 40px solid transparent;
