@@ -118,3 +118,12 @@ body{
         gap: 2rem;
         justify-content: center;
   }
+
+  p{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    color: brown;
+    
+  }
