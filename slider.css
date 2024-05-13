@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.face{
+/* .face{
     position: relative;
     width: 300px;
     height: 300px;
@@ -21,7 +21,34 @@ body{
     display: flex;
     justify-content: center;
     align-items: center
+} */
+
+.face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #ffcd00; */
+    content: '';
+    position: relative;
+    top: 69px;
+
+    width: 0;
+    height: 0;
+    border-left: 148px solid transparent;
+    border-right: 148px solid transparent;
+    border-bottom: 369px solid #ff9900;
+    border-bottom-left-radius: 123px;
+    border-bottom-right-radius: 123px;
+    transition: 0.5s;
 }
+
+.face:hover::before {
+    top: 210px; /* Ajuste para simular el cono levantándose un poco */
+    border-bottom: 0; /* Sin fondo al hacer hover */
+}
+
+
+
 .face::before{
     content: '';
     position: absolute;
